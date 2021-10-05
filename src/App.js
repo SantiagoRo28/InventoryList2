@@ -27,16 +27,20 @@ function App() {
         </Navbar.Collapse>
 
       </Navbar>
-      <Carousel>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="https://www.macmillandictionary.com/us/external/slideshow/full/Grey_full.png"
-      alt="First slide"
-    />
+      <div className="container mh-50 Carousel-container">
 
-  </Carousel.Item>
-</Carousel>
+        <Row> 
+          <div className="col-12">
+          <h1 className="Text-banner"> New Clothing Collection</h1>
+          </div>
+           
+          
+          </Row>
+        <div className="row justify-content-center"><div className="col-6 justify-content-center"><Button className="w-25 mr-10" variant="primary">Primary</Button>{' '}</div></div>
+
+
+      </div>
+
 
     </Container>
   );
