@@ -6,13 +6,23 @@
   text-align: center;
   margin-top: 125px;
 }
-
+.Text-product{
+  text-align: center;
+}
 .Carousel-container{
   height: 500px;
   background-color: gray;
 }
-
+.Mini-container{
+  height: 250px;
+  background-color: gray;
+}
+.View-button{
+  justify-content: center;
+  background-color: gray;
+}
 .App-logo {
+  align-items: center;
   height: 40vmin;
   pointer-events: none;
 }
@@ -32,7 +42,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  height: 600px;
 }
+
 
 .App-link {
   color: #61dafb;
