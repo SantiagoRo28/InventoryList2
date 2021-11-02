@@ -6,6 +6,9 @@
   text-align: center;
   margin-top: 125px;
 }
+.button-banner {
+  align-self: center;
+}
 .Text-product{
   text-align: center;
 }
@@ -45,6 +48,10 @@
   height: 600px;
 }
 
+.orisontal{
+  display:flex; 
+  flex-direction:row;
+}
 
 .App-link {
   color: #61dafb;
